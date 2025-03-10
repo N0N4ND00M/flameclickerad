@@ -173,6 +173,39 @@
       font-size: 16px;
       color: #fff;
     }
+    
+    /* Новые стили для мобильных устройств */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 24px;
+      }
+      nav a {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+      .hero h2 {
+        font-size: 36px;
+      }
+      .hero p {
+        font-size: 18px;
+        padding: 0 20px;
+      }
+      .cta a {
+        font-size: 20px;
+        padding: 10px 20px;
+      }
+    }
+    
+    /* Улучшения для секции "Hem" */
+    .hero h2::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #e67e22;
+      margin: 20px auto 0;
+      border-radius: 2px;
+    }
   </style>
 </head>
 <body>
