@@ -165,6 +165,27 @@
       color: #333;
       margin-bottom: 20px;
     }
+    /* Новая секция Visitkort */
+    .visitkort {
+      padding: 60px 20px;
+      background: #f7f7f7;
+      text-align: center;
+      animation: fadeIn 2s ease-out;
+    }
+    .visitkort h4 {
+      font-size: 32px;
+      color: #e67e22;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .visitkort iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 500px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
     /* Footer */
     footer {
       background: #333;
@@ -194,6 +215,9 @@
         font-size: 20px;
         padding: 10px 20px;
       }
+      .visitkort iframe {
+        height: 300px;
+      }
     }
     
     /* Улучшения для секции "Hem" */
@@ -216,6 +240,7 @@
       <a href="#hero">Hem</a>
       <a href="#ad">Annons</a>
       <a href="#cta">Spela</a>
+      <a href="#visitkort">Visitkort</a>
     </nav>
   </header>
   
@@ -235,14 +260,14 @@
         🔥Spelet varar i 30 sekunder - Hur många poäng kan du få?<br>
         🔥Superenkelt att spela, men svårt att bemästra!<br>
         🔥Utvecklat i C# och Visual Studio<br>
-        💥 Utmana dina vänner! Vem har snabbast reflexer?💥 <br>
+        💥 Utmana dina vänner! Vem har snabbast reflexer?💥<br>
         Gå in på länken nu och bli en Flame Clicker-mästare!
     </p>
   </section>
   
   <!-- Call-to-Action-секция -->
   <section class="cta" id="cta">
-    <a href="https://n0n4nd00m.github.io/FlameClicker/" target="_blank">Spela Flame Clicker</a>
+    <a href="https://your-game-link-here.com" target="_blank">Spela Flame Clicker</a>
   </section>
   
   <!-- Testimonials-секция -->
@@ -251,6 +276,12 @@
     <p class="testimonial">"En enkel spel för när man har det tråkig. 7/10" - Anna</p>
     <p class="testimonial">"Ratear den 8/10, bra design fast man det blir tråkigt efter några minuter" - Erik</p>
     <p class="testimonial">"Riktigt fint ritad hund." - Lisa</p>
+  </section>
+  
+  <!-- Новая секция Visitkort -->
+  <section class="visitkort" id="visitkort">
+    <h4>Visitkort</h4>
+    <iframe src="https://n0n4nd00m.github.io/visitkort/" title="Visitkort"></iframe>
   </section>
   
   <!-- Footer -->
